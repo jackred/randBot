@@ -1,0 +1,33 @@
+{
+  "name": "randBot",
+  "version": "1.0.0",
+  "description": "a bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "jackred <jackred@tuta.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*",
+    "prettier": "*"
+  },
+  "dependencies": {
+    "axios": "*",
+    "discord.js": "*",
+    "mongodb": "*",
+    "mongoose": "*"
+  }
+}

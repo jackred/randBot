@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  discord_bot:
+    container_name: randBot
+    build: .
+    volumes:
+      - ./config.json:/usr/src/randBot/config.json
+    restart: always
+
+networks:
+  default:
+    external:
+      name: ng_network
